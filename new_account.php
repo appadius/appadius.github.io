@@ -10,7 +10,7 @@
 
   else {
 
-  $mysqli = new mysqli('127.0.0.1', 'root', '');
+  $mysqli = new mysqli('69.126.42.110:3306', 'root', '');
 
   if ($mysqli->connect_error) {
       die('Connect Error (' . $mysqli->connect_errno . ') '
